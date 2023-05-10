@@ -8,6 +8,10 @@ type ListOptions struct {
 	KeepTempDir bool
 	// SkipCharts makes List skip `withPreparedCharts`
 	SkipCharts bool
+	// IncludeNeeds is the include needs flag
+	IncludeNeeds bool
+	// IncludeTransitiveNeeds is the include transitive needs flag
+	IncludeTransitiveNeeds bool
 }
 
 // NewListOptions creates a new Apply
@@ -37,4 +41,14 @@ func (c *ListImpl) Output() string {
 // SkipCharts returns skipCharts flag
 func (c *ListImpl) SkipCharts() bool {
 	return c.ListOptions.SkipCharts
+}
+
+// IncludeNeeds returns includeNeeds flag
+func (c *ListImpl) IncludeNeeds() bool {
+	return c.ListOptions.IncludeNeeds
+}
+
+// IncludeTransitiveNeeds returns includeTransitiveNeeds flag
+func (c *ListImpl) IncludeTransitiveNeeds() bool {
+	return c.ListOptions.IncludeTransitiveNeeds
 }

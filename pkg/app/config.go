@@ -244,6 +244,8 @@ type interactive interface {
 type ListConfigProvider interface {
 	Output() string
 	SkipCharts() bool
+	IncludeNeeds() bool
+	IncludeTransitiveNeeds() bool
 }
 
 type CacheConfigProvider interface{}

@@ -33,6 +33,8 @@ func NewListCmd(globalCfg *config.GlobalImpl) *cobra.Command {
 	f := cmd.Flags()
 	f.BoolVar(&listOptions.KeepTempDir, "keep-temp-dir", false, "Keep temporary directory")
 	f.BoolVar(&listOptions.SkipCharts, "skip-charts", false, "don't prepare charts when listing releases")
+	f.BoolVar(&listOptions.IncludeNeeds, "include-needs", false, `automatically include releases from the target release's "needs" when --selector/-l flag is provided. Does nothing when --selector/-l flag is not provided`)
+	f.BoolVar(&listOptions.IncludeTransitiveNeeds, "include-transitive-needs", false, `like --include-needs, but also includes transitive needs (needs of needs). Does nothing when --selector/-l flag is not provided. Overrides exclusions of other selectors and conditions.`)
 	f.StringVar(&listOptions.Output, "output", "", "output releases list as a json string")
 
 	return cmd
