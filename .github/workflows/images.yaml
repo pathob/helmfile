@@ -54,7 +54,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository }}${{ matrix.image.suffix }}
+          images: ghcr.io/${{ github.repository }}-valsfix${{ matrix.image.suffix }}
           flavor: latest=false
           tags: |
             type=raw,value=canary,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
