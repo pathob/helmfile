@@ -321,4 +321,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 )
 
-replace github.com/helmfile/vals => github.com/pathob/helmfile-vals v0.0.0-20260722115458-fa3cf9554916
+replace github.com/helmfile/vals => github.com/pathob/helmfile-vals v0.0.0-20260722190738-115fd0669987
