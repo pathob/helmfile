@@ -29,6 +29,7 @@ jobs:
       contents: read
       packages: write
     strategy:
+      fail-fast: false
       matrix:
         image:
           - dockerfile: Dockerfile
