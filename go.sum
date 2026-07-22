@@ -538,8 +538,6 @@ github.com/hashicorp/vault/api v1.23.0 h1:gXgluBsSECfRWTSW9niY2jwg2e9mMJc4WoHNv4
 github.com/hashicorp/vault/api v1.23.0/go.mod h1:zransKiB9ftp+kgY8ydjnvCU7Wk8i9L0DYWpXeMj9ko=
 github.com/helmfile/chartify v0.28.0 h1:AK04JykpFXQAtIbEN2DwAZsoSNdDZdAGY5W5FIoK8bk=
 github.com/helmfile/chartify v0.28.0/go.mod h1:LKUELzZ2TaaCAD4EAFbaCkmRXNnt4uWlJts7GBdFVAQ=
-github.com/helmfile/vals v0.44.5 h1:o/f8V6PR/7iw0aR6FBT6sJsH6Zin/RDlXxJljYqAuQM=
-github.com/helmfile/vals v0.44.5/go.mod h1:JD1ioew+7grDWMYVsQ9+e1lUunfao/fJV7uV0ReKqjc=
 github.com/hinshun/vt10x v0.0.0-20220119200601-820417d04eec h1:qv2VnGeEQHchGaZ/u7lxST/RaJw+cv273q79D81Xbog=
 github.com/hinshun/vt10x v0.0.0-20220119200601-820417d04eec/go.mod h1:Q48J4R4DvxnHolD5P8pOtXigYlRuPLGl6moFx3ulM68=
 github.com/hokaccha/go-prettyjson v0.0.0-20211117102719-0474bc63780f h1:7LYC+Yfkj3CTRcShK0KOL/w6iTiKyqqBA9a41Wnggw8=
@@ -668,6 +666,8 @@ github.com/otiai10/copy v1.14.1 h1:5/7E6qsUMBaH5AnQ0sSLzzTg1oTECmcCmT6lvF45Na8=
 github.com/otiai10/copy v1.14.1/go.mod h1:oQwrEDDOci3IM8dJF0d8+jnbfPDllW6vUjNc3DoZm9I=
 github.com/otiai10/mint v1.6.3 h1:87qsV/aw1F5as1eH1zS/yqHY85ANKVMgkDrf9rcxbQs=
 github.com/otiai10/mint v1.6.3/go.mod h1:MJm72SBthJjz8qhefc4z1PYEieWmy8Bku7CjcAqyUSM=
+github.com/pathob/helmfile-vals v0.0.0-20260722190859-69f62e1d06b2 h1:NoT5cNSz2Pqoh2eY4JliCGdMdLp5rs50Y5eKALJ++ow=
+github.com/pathob/helmfile-vals v0.0.0-20260722190859-69f62e1d06b2/go.mod h1:JD1ioew+7grDWMYVsQ9+e1lUunfao/fJV7uV0ReKqjc=
 github.com/pborman/getopt v0.0.0-20170112200414-7148bc3a4c30/go.mod h1:85jBQOZwpVEaDAr341tbn15RS4fCAsIst0qp7i8ex1o=
 github.com/peterbourgon/diskv v2.0.1+incompatible h1:UBdAOUP5p4RWqPBg048CAvpKN+vxiaj6gdUUzhl4XmI=
 github.com/peterbourgon/diskv v2.0.1+incompatible/go.mod h1:uqqh8zWWbv1HBMNONnaR/tNboyR3/BZd58JJSHlUSCU=
